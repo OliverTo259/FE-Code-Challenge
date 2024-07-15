@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+.ant-form {
+  width: 40%;
+}
+.ant-select-selection-item {
+  display: flex;
+  align-items: center;
+}
+.ant-select-item-option-content, .ant-select-selection-item {
+  display: flex;
+  justify-content: normal;
+  gap: 10px;
+}
+.item-exchange {
+  width: 450px;
+  height: 80px;
+  position: relative;
+}
+.select-exchange {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.swap-currency{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.label-exchange{
+  position: absolute;
+  left: 10px;
+  top: 3px;
+  opacity: 0.4;
+}
